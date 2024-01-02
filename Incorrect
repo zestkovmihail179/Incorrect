@@ -1,0 +1,4 @@
+ } else {
+            $remainingAttempts = $attempts - ($i + 1);
+            if ($remainingAttempts > 0) {
+                echo "Incorrect. You have {$remainingAttempts} attempts left.\n";
